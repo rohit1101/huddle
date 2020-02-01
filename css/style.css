@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+
+#nav-container {
+    background-image: url("../images/bg-hero-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center/contain;
+    background-color: hsl(193, 100%, 96%);
+    height: 100rem;
+    width: 100%;
+}
+
+#nav-container .nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 3rem 6rem;
+}
+
+.try {
+    border: 0.1rem solid #fff;
+    height: 5rem;
+    width: 24rem;
+    padding: 1.7rem 7rem;
+    margin: 3rem 6rem;
+    border-radius: 15% /50%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: #fff;
+    box-shadow: 0.1rem 0.1rem 1rem #E2E2E2;
+    letter-spacing: 0.2rem;
+}
+
+/* header */
+
+#head-container {
+    display: flex;
+    height: 70rem;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;    
+}
+
+#head-container .head-left {
+    flex: 0.8;
+    margin: 0 7rem;
+    /* padding: 2rem 5rem; */
+}
+
+#head-container .head-left h1 {
+    font-size: 4rem;
+    text-align: left;
+    padding: 2rem 0;
+    /* margin: -1rem 0; */
+}
+
+#head-container .head-left p {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    /* margin: 1rem 5rem; */
+}
+
+#head-container .head-left .btn {
+    display: inline-block;
+    padding: 2.5rem 7rem;
+    margin-top: 2rem;
+    border-radius: 15% /50%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 0.1rem 0.1rem 1rem #444;
+    letter-spacing: 0.1rem;    
+    text-decoration: none;
+    color: #fff;
+}
+
+#head-container .head-right img{
+    width: 90%;
+    display: block;
+    margin: 0 5rem;
+    padding: 2rem 2rem;
+    /* height: 100%; */
+}
+
+#head-container .head-right {
+    flex: 1;
+}
+
+/* showcase */
+
+#showcase {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#showcase .card1 {
+    display: flex;
+    /* border: 0.1rem solid; */
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 10rem;
+    box-shadow: -0.1rem 0.1rem 1rem #E2E2E2;
+    border-radius: 1.5rem;
+}
+
+#showcase .card1 .content-left {
+    margin-left: 7rem;
+}
+
+#showcase .card1 .content-left h1 {
+    font-size: 2rem;
+}
+
+#showcase .card1 .content-left p {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+
+#showcase .card1 img {
+    display: inline-block;
+    padding: 2rem 4rem;
+    margin: 7rem 5rem;
+    width: 35%;
+    height: 60%;
+} 
+
+#showcase .card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 5rem;
+    box-shadow: -0.1rem 0.1rem 1rem #E2E2E2;
+    border-radius: 1.5rem;
+}
+
+#showcase .card2 .content {
+    margin-left: 7rem;
+}
+
+#showcase .card2 .content h1 {
+    font-size: 2rem;
+}
+
+#showcase .card2 .content p {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+#showcase .card2 img {
+    display: inline-block;
+    padding: 2rem 4rem;
+    margin: 7rem 5rem;
+    width: 35%;
+    height: 60%;
+} 
+
+#showcase .card3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 5rem;
+    box-shadow: -0.1rem 0.1rem 1rem #E2E2E2;
+    border-radius: 1.5rem;
+}
+
+#showcase .card3 .content-left {
+    margin-left: 7rem;
+}
+
+#showcase .card3 .content-left h1 {
+    font-size: 2rem;
+}
+
+#showcase .card3 .content-left p {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+#showcase .card3 img {
+    display: inline-block;
+    padding: 2rem 4rem;
+    margin: 7rem 5rem;
+    width: 35%;
+    height: 60%;
+} 
+
+#showcase .card4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 7rem;
+    width: 50%;
+    box-shadow: -0.1rem 0.1rem 1rem #444;
+    position: relative;
+    top: 10rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+}
+
+#showcase .card4 .content4 {
+    text-align: center;
+    width: 100%;
+    /* box-shadow: -0.1rem 0.1rem 1rem #E2E2E2; */
+    padding: 5rem 5rem;
+    margin: 0 auto;
+}
+
+#showcase .card4 .content4 h1 {
+    font-size: 2rem;
+}
+
+#showcase .card4 .content4 a {
+    display: inline-block;
+    padding: 2rem 5rem;
+    margin-top: 3rem;
+    border-radius: 15% /50%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 0.1rem 0.1rem 1rem #444;
+    letter-spacing: 0.1rem;    
+    text-decoration: none;
+    color: #fff;
+}
+
+/* footer */
+
+.f {
+    background-color: hsl(192, 100%, 9%);
+}
+
+.f .img {
+    display: inline-block;
+    /* margin: 0 5rem; */
+    margin-left: 5rem;
+    margin-top: 20rem;
+    margin-bottom: -4rem;
+}
+
+#foot {
+    display: flex;
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.fcard0 {
+    flex: 1;
+    margin-left: 5rem;
+    /* padding: 5rem 0;  */
+}
+
+/* #foot .fcard0 img {
+    display: inline-block;
+    padding: 3rem 0;
+}  */
+
+#foot .fcard0 .para {
+    display: flex;
+    padding: 1rem 0;
+}
+
+#foot .fcard0 .para p {
+    margin-left: 2rem;
+    font-size: 1.4rem;
+}
+
+#foot .fcard1 {
+    flex: 1;
+    /* padding: 5rem 1rem;  */
+    /* margin-left: 3rem; */
+}
+
+#foot .fcard1 a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+#foot .fcard1 p {
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    /* line-height: 2rem; */
+}
+
+
+#foot .fcard2 {
+    flex: 1;
+    /* margin-left: 3rem; */
+}
+
+
+#foot .fcard2 a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+#foot .fcard2 p {
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.fa {
+    margin: -0.4rem 1rem;
+}
+
+.align {
+    /* display: flex; */
+    /* flex-flow: column wrap; */
+    flex: 1;
+}
+
+
+#foot .icons {
+    display: flex;
+    position: relative;
+    bottom: 6rem;
+}
+
+#foot .icons .ic {
+    display: inline-block;
+    padding: 1rem 0;
+    border: 0.1rem solid #fff;
+    border-radius: 50%;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+.quote {
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copy {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 1rem 2rem;
+}
+
