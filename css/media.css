@@ -50,8 +50,8 @@
 
 #head-container {
 display: flex;
-flex-flow: row wrap;
-height: 80rem;
+flex-flow: column wrap;
+height: 100rem;
 justify-content: center;
 align-items: center;
 }
@@ -77,8 +77,8 @@ text-align: center;
 
 #head-container .head-left .btn {
 display: inline-block;
-padding: 2rem 3rem;
-margin: 5rem 7.2rem;
+padding: 2rem 5rem;
+margin: 5rem 7rem;
 border-radius: 15% /50%;
 font-size: 1.4rem;
 font-weight: 500;
@@ -94,11 +94,11 @@ flex: 1;
 }
 
 #head-container .head-right img{
-    width: 80%;
+    /* width: 100%; */
     display: block;
-    margin: 0 5rem;
-    /* padding: 2rem 2rem; */
-    height: 10%;
+    margin: 0 2rem;
+    /* padding: 2rem 10rem; */
+    height: 40%;
 }
 
 #showcase {
@@ -278,7 +278,7 @@ color: #fff;
     justify-content: center;
     background-color: hsl(192, 100%, 9%);
     color: #fff;
-    height: 60rem;
+    height: 70rem;
     /* justify-content: center; */
     /* align-items: center; */
 }
@@ -290,16 +290,15 @@ color: #fff;
 }
 
 #foot .fcard0 .para p {
-    margin-left: 1rem;
+    margin: 0.1rem 1rem;
     font-size: 1.4rem;
-    margin-top: -0.5rem;
-    /* padding: 1rem; */
+    padding: 1rem 0;
 }
 
 #foot .fcard1 {
     /* flex: 0.5; */
     /* padding: 1rem 1rem;  */
-    margin-left: 2rem;
+    margin-left: 2.5rem;
 }
 
 #foot .fcard1 a {
@@ -317,7 +316,7 @@ color: #fff;
 
 #foot .fcard2 {
     /* flex: 1; */
-    margin-top: -3rem;
+    /* margin-top: -3rem; */
     margin-left: 2rem;
 }
 

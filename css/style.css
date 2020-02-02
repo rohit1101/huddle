@@ -291,8 +291,8 @@ html {
 }
 
 #foot .fcard0 .para p {
-    /* margin: 0 2rem; */
-    margin: -0.4rem 2rem;
+    margin: 0.5rem 2rem;
+    /* margin: -0.4rem 2rem; */
     font-size: 1.4rem;
 }
 
