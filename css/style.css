@@ -19,7 +19,7 @@ html {
     background-size: cover;
     background-position: center center/contain;
     background-color: hsl(193, 100%, 96%);
-    height: 100rem;
+    height: 75rem;
     width: 100%;
 }
 
@@ -134,6 +134,7 @@ html {
     font-size: 1.5rem;
     padding-top: 1rem;
     letter-spacing: 0.1rem;
+    color: grey;
 }
 
 
@@ -167,6 +168,7 @@ html {
     font-size: 1.5rem;
     padding-top: 1rem;
     letter-spacing: 0.1rem;
+    color: grey;
 }
 
 #showcase .card2 img {
@@ -199,6 +201,7 @@ html {
     font-size: 1.5rem;
     padding-top: 1rem;
     letter-spacing: 0.1rem;
+    color: grey;
 }
 
 #showcase .card3 img {
@@ -272,8 +275,8 @@ html {
 }
 
 .fcard0 {
-    flex: 1;
-    margin-left: 5rem;
+    flex: 1.5;
+    margin: 0 5rem;
     /* padding: 5rem 0;  */
 }
 
@@ -288,12 +291,13 @@ html {
 }
 
 #foot .fcard0 .para p {
-    margin-left: 2rem;
+    /* margin: 0 2rem; */
+    margin: -0.4rem 2rem;
     font-size: 1.4rem;
 }
 
 #foot .fcard1 {
-    flex: 1;
+    flex: 0.5;
     /* padding: 5rem 1rem;  */
     /* margin-left: 3rem; */
 }
@@ -307,13 +311,14 @@ html {
 #foot .fcard1 p {
     font-size: 1.5rem;
     padding: 2rem 0;
-    text-align: center;
+    text-align: left;
+    margin: 0 auto;
     /* line-height: 2rem; */
 }
 
 
 #foot .fcard2 {
-    flex: 1;
+    flex: 0.5;
     /* margin-left: 3rem; */
 }
 
@@ -327,11 +332,12 @@ html {
 #foot .fcard2 p {
     font-size: 1.5rem;
     padding: 2rem 0;
-    text-align: center;
+    text-align: left;
+    margin: 0 0.5rem;
 }
 
 .fa {
-    margin: -0.4rem 1rem;
+    margin: auto 1.5rem;
 }
 
 .align {
