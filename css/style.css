@@ -21,11 +21,20 @@ html {
     background-color: hsl(193, 100%, 96%);
     height: 75rem;
     width: 100%;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
 }
 
 #nav-container .nav {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    animation: navbar 1000ms ease-in-out 1000ms 1 normal forwards;
+}
+
+@keyframes navbar {
+    0% {top: -130rem;}
+    50% {top: -5rem;}
+    100% {top: 0rem; }
 }
 
 .logo {
@@ -60,6 +69,14 @@ html {
     flex: 0.8;
     margin: 0 7rem;
     /* padding: 2rem 5rem; */
+    position: relative;
+    animation: head-left 1500ms ease-in-out 1000ms 1 normal forwards;
+}
+
+@keyframes head-left {
+    0% {left: -750rem;}
+    50% {left: -250rem;}
+    100% {left: 0rem;}
 }
 
 #head-container .head-left h1 {
@@ -99,6 +116,14 @@ html {
 
 #head-container .head-right {
     flex: 1;
+    position: relative;
+    animation: head-right 1500ms ease-in-out 1000ms 1 normal forwards;
+}
+
+@keyframes head-right {
+    0% {right: -750rem;}
+    50% {right: -250rem;}
+    100% {right: 0rem;}
 }
 
 /* showcase */
@@ -120,6 +145,14 @@ html {
     margin-top: 10rem;
     box-shadow: -0.1rem 0.1rem 1rem #E2E2E2;
     border-radius: 1.5rem;
+    position: relative;
+    animation: c1 1500ms ease-in-out 1000ms 1 normal forwards;
+}
+
+@keyframes c1 {
+    0% {right: -1750rem;}
+    50% {right: -550rem;}
+    100% {right: 0rem;}
 }
 
 #showcase .card1 .content-left {
@@ -154,7 +187,17 @@ html {
     margin-top: 5rem;
     box-shadow: -0.1rem 0.1rem 1rem #E2E2E2;
     border-radius: 1.5rem;
+    position: relative;
+    animation: c2 1500ms ease-in-out 1000ms 1 normal forwards;
 }
+
+@keyframes c2 {
+    0% {left: -1750rem;}
+    50% {left: -550rem;}
+    100% {left: 0rem;}
+}
+
+
 
 #showcase .card2 .content {
     margin-left: 7rem;
@@ -187,6 +230,14 @@ html {
     margin-top: 5rem;
     box-shadow: -0.1rem 0.1rem 1rem #E2E2E2;
     border-radius: 1.5rem;
+    position: relative;
+    animation: c3 1500ms ease-in-out 1000ms 1 normal forwards;
+}
+
+@keyframes c3 {
+    0% {right: -1750rem;}
+    50% {right: -550rem;}
+    100% {right: 0rem;}
 }
 
 #showcase .card3 .content-left {
